@@ -1,4 +1,6 @@
-import NavBar from "../components/NavBar"
+
+import { Link } from "react-router-dom";
+import NavBar from "../components/NavBar";
 
 function Home() {
   return (
@@ -10,14 +12,15 @@ function Home() {
           Explore a collection of famous directors and their iconic movies. Click
           below to start exploring!
         </p>
+
         <nav>
-          {/* add links for directors page and about page */}
-          <a>View Directors</a> |{" "}
-          <a>Learn More About This App</a>
+          <Link to="/directors">View Directors</Link> |{" "}
+          <Link to="/about">Learn More About This App</Link>
         </nav>
       </main>
     </>
-  )
+  );
 }
 
-export default Home
+export default Home;
+

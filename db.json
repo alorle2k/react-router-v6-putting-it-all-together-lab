@@ -34,6 +34,14 @@
             "Drama",
             "Thriller"
           ]
+        },
+        {
+          "id": "47f91ca6-3752-467b-9a97-d99cf6f5701d",
+          "title": "Interstellar",
+          "time": 169,
+          "genres": [
+            "Sci-Fi"
+          ]
         }
       ]
     },
@@ -120,5 +128,6 @@
         }
       ]
     }
-  ]
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
 }
